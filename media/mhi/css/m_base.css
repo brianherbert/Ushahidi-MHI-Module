@@ -1,0 +1,9 @@
+/* html { background:#f3f4f6; background:transparent url(../img/bg_body.png) top repeat; margin:0px; } */
+	
+/* body.content { font-size:.75em; } */
+
+html { background:#f3f4f6; background:transparent url(../img/bg_header.jpg) top repeat-x; background-position:0px -50px; margin:0px; }
+
+body { height:100%; width:100%; margin:0px; padding:0px; }
+
+#top { background:transparent url(../img/bg_header.jpg) top repeat-x; padding:10px; width:100% }
