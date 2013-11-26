@@ -22,8 +22,6 @@ Upload the /modules/mhi/ directory into your root directory of your vanilla inst
 
 Upload the /media/mhi/ directory into your root directory of your vanilla install.
 
-Upload the /m
-
 Find the /modules/mhi/config/database.php file and add the database details for your vanilla Ushahidi install. Make sure the user you use has permission to create new databases. When someone sets up a new site, this user will be the one that creates a new database. It will use your vanilla install database name as a prefix and the subdomain used as the name. For example, if you have a db named "mhi" for this and someone creates a "coolmap" subdomain for a map, a new db called "mhi_coolmap" will be created.
 
 Run the mhi.sql file on your vanilla database. The tables this installs will be the only relevant tables to the vanilla install. All the others can be ignored. If you want, you can do some Apache/Nginx fu to make sure people don't access the phantom Ushahidi deployment that this process creates.
